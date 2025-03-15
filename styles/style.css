@@ -79,9 +79,9 @@ ol {
   align-items: start;   
 }
 
-.content__list-container{
+.content__list-container{ 
   position: relative;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
 
 }
@@ -207,6 +207,7 @@ button {
   font-family: Fira Sans Condensed, sans-serif;
   font-weight: 700;
   font-size: 18px;
+  height: 34px; 
   text-align: center;
   color: #fff;
   background-color: transparent;  
@@ -279,13 +280,11 @@ button {
 
 .search-form__submit-button{
   margin-top: auto;
-  width: 194px;
-  height: 34px;   
+  width: 194px;   
 }
 
 .more-button{
-  width: 395px;
-  height: 34px;   
+  width: 395px;    
 }
 
 .button:has(:focus-visible){  
