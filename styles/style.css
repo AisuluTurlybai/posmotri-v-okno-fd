@@ -80,12 +80,14 @@ ol {
 }
 
 .content__list-container{
+  position: relative;
   max-height: 298px;
   overflow-y: auto;
 
 }
 
 .result__video-container{ 
+  position: relative;
   width: 711px;
   height: 386px;  
   margin-bottom: 16px;
@@ -209,8 +211,7 @@ button {
   color: #fff;
   background-color: transparent;  
   cursor: pointer;
-  border: 1px solid #fff;  
-  box-shadow: 0 0 5px currentColor;
+  border: 1px solid #fff;   
 }
 
 .search-form__label{
@@ -257,7 +258,7 @@ button {
   border-style:inset;
   border-width:1px;
   border-color: #fff;
-  background-color: #000;  
+  background-color: transparent;  
   cursor: pointer;
 }
 
@@ -320,10 +321,3 @@ button {
   outline: 1px solid #fff;
 }
 
-.result__video-container{
-  position: relative;
-}
-
-.content__list-container{
-  position: relative;
-}
